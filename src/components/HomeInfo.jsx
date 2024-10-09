@@ -7,10 +7,11 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-        Hi, I'm
-        <span className="font-semibold mx-2 text-white">Adrian</span>
+        Hi, 我是
+        <span className="font-semibold mx-2 text-white">安可</span>
         👋
-        <br />A Software Engineer from Croatia 🇭🇷
+        <br />
+        来自一个热爱编程的软件开发者。
       </h1>
     );
 
@@ -18,12 +19,13 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Worked with many companies <br /> and picked up many skills along the
-          way
+          与许多公司合作
+          <br />
+          并学到了许多技能 方式
         </p>
 
         <Link to="/about" className="neo-brutalism-white neo-btn">
-          Learn more
+          了解更多
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -34,12 +36,12 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
-          the impact?
+          多年来带领多个项目取得成功。 <br />
+          好奇心使我不断学习影响？
         </p>
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
-          Visit my portfolio
+          查看项目
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -50,12 +52,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Need a project done or looking for a dev? <br /> I'm just a few
-          keystrokes away
+          需要完成一个项目或寻找开发人员吗？ <br />
         </p>
 
         <Link to="/contact" className="neo-brutalism-white neo-btn">
-          Let's talk
+          我们来谈谈
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
