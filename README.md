@@ -7,4 +7,4 @@
 
 #### 预览图：
 
-(image.png)
+![alt text](image.png)
