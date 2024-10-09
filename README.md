@@ -7,4 +7,4 @@
 
 #### 预览图：
 
-![web3D官网预览图](![alt text](image.png))
+(image.png)
